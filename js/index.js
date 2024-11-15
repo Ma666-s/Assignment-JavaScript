@@ -75,14 +75,8 @@
 
 
 // ============ (15) ===============
-function marksFiveSubjects()
+function marksFiveSubjects(physics, mathmatics, biology, chemistry, computer)
 {
-    var physics = 90;
-    var mathmatics = 80;
-    var biology = 70;
-    var chemistry = 60;
-    var computer = 40;
-
     switch(true)
     {
         case (physics >= 90):
@@ -103,4 +97,6 @@ function marksFiveSubjects()
             
     }
 }
-marksFiveSubjects()
+var resultMarksSubjects = marksFiveSubjects(90, 80, 70, 60, 40);
+console.log(resultMarksSubjects);
+
